@@ -237,7 +237,8 @@ Prefab:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 11422754, guid: 11561786059d13346b9af9be81fcbed2, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 11561786059d13346b9af9be81fcbed2, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1171996627
@@ -309,6 +310,17 @@ Transform:
 GameObject:
   m_PrefabParentObject: {fileID: 122752, guid: 11561786059d13346b9af9be81fcbed2, type: 2}
   m_PrefabInternal: {fileID: 1150978412}
+--- !u!114 &1363726445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1363726444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b3282e48d35be441bb8e72c31bc2bb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!54 &1363726446
 Rigidbody:
   m_ObjectHideFlags: 0
