@@ -2,6 +2,5 @@
 ごった返しゲーム(Unity勉強用)
 
 # 素材
-[ToonBot]()
-[空白]
-[Free Island Collection](https://assetstore.unity.com/packages/3d/environments/landscapes/free-island-collection-104753)
+1.[ToonBot]()
+2.[Free Island Collection](https://assetstore.unity.com/packages/3d/environments/landscapes/free-island-collection-104753)
