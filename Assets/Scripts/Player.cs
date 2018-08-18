@@ -28,11 +28,11 @@ public class Player : MonoBehaviour {
 
     private void Update () {
         if(Input.GetKey(KeyCode.RightArrow)) {
-            transform.eulerAngles += new Vector3(0,1,0);
+            transform.eulerAngles += new Vector3(0,2,0);
         }
 
         if(Input.GetKey(KeyCode.LeftArrow)) {
-            transform.eulerAngles += new Vector3(0,-1,0);
+            transform.eulerAngles += new Vector3(0,-2,0);
         }
 
         if(Input.GetKey(KeyCode.UpArrow)) {
