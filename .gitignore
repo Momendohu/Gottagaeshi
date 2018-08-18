@@ -35,8 +35,8 @@ sysinfo.txt
 *.apk
 *.unitypackage
 
-# Redistribution impossible resources directory
-Assets/RedistributionImpossibleResources/
+# External resources directory
+Assets/External/
 
 # Standard assets directory
 Assets/Standard Assets/

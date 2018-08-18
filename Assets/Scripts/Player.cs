@@ -27,8 +27,13 @@ public class Player : MonoBehaviour {
     }
 
     private void Update () {
-        if(Input.GetKey(KeyCode.A)) {
-            animator.SetInteger("Speed",1);
+        if(Input.GetKey(KeyCode.RightArrow)) {
+            transform.eulerAngles += new Vector3(0,1,0);
+           //animator.SetInteger("Speed",1);
+        }
+
+        if(Input.GetKey(KeyCode.LeftArrow)) {
+            transform.eulerAngles += new Vector3(0,-1,0);
         }
     }
 }
