@@ -34,3 +34,9 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+
+# Redistribution impossible resources directory
+Assets/RedistributionImpossibleResources/
+
+# Standard assets directory
+Assets/Standard Assets/
