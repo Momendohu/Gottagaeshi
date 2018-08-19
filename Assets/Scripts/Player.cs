@@ -45,7 +45,6 @@ public class Player : MonoBehaviour {
             up = true;
         }
 
-        Debug.Log(up+":"+right+":"+left);
         if(up) {
             ForwardAction();
         }
