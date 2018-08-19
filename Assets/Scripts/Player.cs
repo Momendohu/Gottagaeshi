@@ -47,6 +47,8 @@ public class Player : MonoBehaviour {
 
         if(up) {
             ForwardAction();
+        } else {
+            animator.SetInteger("Speed",0);
         }
 
         if(right) {
@@ -77,6 +79,24 @@ public class Player : MonoBehaviour {
     }
 
     //=============================================================
+    //右ボタンを離す
+    public void RightButtonRelease () {
+        right = false;
+    }
+
+    //=============================================================
+    //左ボタンを離す
+    public void LeftButtonRelease () {
+        left = false;
+    }
+
+    //=============================================================
+    //上ボタンを離す
+    public void UpButtonRelease () {
+        up = false;
+    }
+
+    //=============================================================
     //右押したときの行動
     private void RightAction () {
         transform.eulerAngles += new Vector3(0,turnSpeed,0);
@@ -93,14 +113,5 @@ public class Player : MonoBehaviour {
     private void ForwardAction () {
         transform.position += new Vector3(Mathf.Sin(transform.eulerAngles.y * Mathf.Deg2Rad),0,Mathf.Cos(transform.eulerAngles.y * Mathf.Deg2Rad)) * 0.5f;
         animator.SetInteger("Speed",2);
-    }
-
-    //=============================================================
-    //行動初期化
-    public void InitializeAction () {
-        up = false;
-        left = false;
-        right = false;
-        animator.SetInteger("Speed",0);
     }
 }
